@@ -7,5 +7,3 @@ def pascal_triangle(n):
             row.append(tmp[j] + tmp[j+1])
         res.append(row)
     return res
-
-print(pascal_triangle(5))
