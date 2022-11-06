@@ -23,6 +23,10 @@ def pascal_triangle(n):
     res : list
         a list of lists of integers representing the Pascal’s triangle
     '''
+    # return an empty list if n is less than or equal to zero
+    if n <= 0:
+        return []
+
     res = [[1]]
     for i in range(n - 1):
         tmp = [0] + res[-1] + [0]
