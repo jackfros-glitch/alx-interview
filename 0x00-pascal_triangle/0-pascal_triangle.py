@@ -1,17 +1,21 @@
 #!/usr/bin/python3
 
 '''
-This script allows the user to genrate a list of lists of integers representing the Pascal’s triangle of n
+This script allows the user to generate a list of lists of integers
+representing the Pascal’s triangle of n
+
 n -> the number of rows the users wants to generate
 This file can also be imported as a module and contains only one function
 which is:
- * pascal_traingle -> takes in the number of rows in the pascal's Triangle to be generated and
-        returns a list of lists of integers representing the Pascal’s triangle
+ * pascal_traingle -> takes in the number of rows in the pascal's Triangle to
+        be generated and returns a list of lists of integers representing the
+        Pascal’s triangle
 '''
 
 
 def pascal_triangle(n):
-    ''' takes in the number of rows in the pascal's Triangle that the user wants to generate
+    ''' takes in the number of rows in the pascal's Triangle that the user
+        wants to generate
 
     Parameters
     -----------
