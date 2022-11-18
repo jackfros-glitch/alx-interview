@@ -33,6 +33,10 @@ def canUnlockAll(boxes: list) -> bool:
     keys = [0]
     for i in keys:
         for key in boxes[i]:
-            if key not in keys:
+            if key not in keys and key < len(boxes):
                 keys.append(key)
     return True if len(keys) == len(boxes) else False
+
+
+
+print(canUnlockAll( [[0]]))
