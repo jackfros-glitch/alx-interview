@@ -27,8 +27,6 @@ def canUnlockAll(boxes: list) -> bool:
     a boolean True or False
 
     '''
-    if boxes == []:
-        return False
 
     keys = [0]
     for i in keys:
@@ -37,6 +35,3 @@ def canUnlockAll(boxes: list) -> bool:
                 keys.append(key)
     return True if len(keys) == len(boxes) else False
 
-
-
-print(canUnlockAll( [[0]]))
