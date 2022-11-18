@@ -17,7 +17,7 @@ def canUnlockAll(boxes: list) -> bool:
     '''
     takes in a list of boxes and determine if the keys in the boxes
     can open all the boxes available in the list
-    
+
     Parameters
     ---------
     boxes : list
@@ -27,6 +27,9 @@ def canUnlockAll(boxes: list) -> bool:
     a boolean True or False
 
     '''
+    if boxes == []:
+        return False
+
     keys = [0]
     for i in keys:
         for key in boxes[i]:
