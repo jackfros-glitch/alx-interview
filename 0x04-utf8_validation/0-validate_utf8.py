@@ -4,9 +4,9 @@ This Script determines if a given data set represents a valid UTF-8 encoding.
 
 This file can also be imported as a module and contains only one function
 which is:
- *validUTF -> takes in a data set and then dataemines if it represents a 
+ *validUTF -> takes in a data set and then dataemines if it represents a
     valid UTF-8 encoding the function returns True if the data set is a
-    valid UTF-8 encoding 
+    valid UTF-8 encoding
 """
 
 
@@ -17,11 +17,11 @@ def validUTF8(data) -> bool:
 
     Parameters
     -----------
-       data : list 
+       data : list
 
     :return:
        a boolean value True or False
-       
+
     """
     num_bytes = 0
     for byte in data:
